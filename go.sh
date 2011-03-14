@@ -1,2 +1,2 @@
-â‚â‚#!/bin/bash
-twistd -ny echobot.tac
+#!/bin/bash
+twistd -ny stereobot.tac

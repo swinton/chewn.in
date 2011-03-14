@@ -8,7 +8,7 @@ import mpdclient
 class StereoBotProtocol(MessageProtocol):
     def __init__(self):
         MessageProtocol.__init__(self)
-        self.mpdclient = mpdclient.MpdClient(port=66000)
+        self.mpdclient = mpdclient.MpdClient()
         self.mpdclient.connect()
 
     def connectionMade(self):
